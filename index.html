@@ -5,24 +5,15 @@
 </head>
   <body>
 <a-scene>
-	<a-box color="blue" position="0 1 -5" rotation="0 90 90" scale="2 2 2"<a-animation attribute="position" to="0 5 -5" direction="alternate" dur="2000"
-      repeat="indefinite"></a-animation>></a-box>
-	 <a-sphere color="pink" position="-4 1 -4"></a-sphere>
-	 <a-cylinder color="yellow" position="5 1 -2"></a-cylinder>
-   <a-animation attribute="position" to="0 5 -5" direction="alternate" dur="2000"
-      repeat="indefinite"></a-animation>><
   <a-sky color="#6EBAA7"></a-sky>
   <a-plane rotation="-90 0 0" width="30" height="30"></a-plane>
-  <a-text value="Hey there people" color="#0000FF"
-        position="-0.9 0.2 -3" scale="1.5 1.5 1.5"></a-text>
- <audio src="https://cdn.aframe.io/basic-guide/audio/backgroundnoise.wav" autoplay
-preload>
-</audio>
+  <a-text value="Mitochandria (Powerhouse of the cell)" color="#0000FF"
+        position="-10.5 1.530 -5.24" scale="1.5 1.5 1.5"></a-text>
 </a-scene>
 <a-assets>
-     <a-asset-item id="tinker-obj" src="/path/to/tinker.obj"></a-asset-item>
-     <a-asset-item id="obj-mtl" src="/path/to/obj.mtl"></a-asset-item>
+     <a-asset-item id="tinker.obj" src="/path/to/tinker.obj"></a-asset-item>
+     <a-asset-item id="obj.mtl" src="/path/to/obj.mtl"></a-asset-item>
 <a-assets>
-	<a-entity obj-model="obj: #tinker-obj; mtl: #obj-mtl"></a-entity>
+	<a-entity obj-model="obj: #tinker.obj; mtl: #obj.mtl"></a-entity>
   </body>
-</html>`
+</html>
